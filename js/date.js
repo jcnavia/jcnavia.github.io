@@ -1,14 +1,45 @@
-let date = new Date();
+let daynames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+];
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+];
 
-function writedate() {
-    // MM/DD/YYYY HH:MM:SS
-    let hour = date.getHours();
-    var hourText = hour;
-    var timeOfDay = 'AM';
-    if (hour > 12) {
-        hourText = hour - 12;
-        timeOfDay = 'PM';
-    }
-    document.getElementById("copyright").innerHTML = date.getFullYear();
-    document.getElementById("lastUpdate").innerHTML = document.lastModified;
+
+let day = new Date();
+let dayName = daynames[day.getDate()];
+let montName = months[day.getMonth()];
+let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+d.getFullYear();
+
+document.getElementById("currentdate").textContent = fulldate;
+// *******8**
+try { 
+    let options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+    };
+    document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-us", options);
+}
+catch (e) {
+    alert("Error with code or your browser does not suppoert Locale");
 }
