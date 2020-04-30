@@ -27,7 +27,7 @@ let months = [
 let day = new Date();
 let dayName = daynames[day.getDate()];
 let monthName = months[day.getMonth()];
-let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+let fulldate = dayName + ", " + monthName + " " + day.getDate() + ", " + year;
 console.log("fullDate = " + fulldate);
 d.getFullYear();
 
