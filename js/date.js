@@ -1,3 +1,4 @@
+console.log("JavaScript is being run...");
 let daynames = [
     "Sunday",
     "Monday",
@@ -27,6 +28,7 @@ let day = new Date();
 let dayName = daynames[day.getDate()];
 let montName = months[day.getMonth()];
 let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+console.log("fullDate = " + fulldate);
 d.getFullYear();
 
 document.getElementById("currentdate").textContent = fulldate;
