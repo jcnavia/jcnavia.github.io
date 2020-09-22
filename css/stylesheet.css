@@ -27,7 +27,6 @@ main h2{
     box-shadow: 0 0 17px black;
     height: 300px;
     width: 200px;
-    border-radius: 20px
 }
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
     color: white;
