@@ -23,7 +23,7 @@ main h2{
     border-bottom: 1px solid black;
 }
 .profile{
-    float: right;
+    float: auto;
     box-shadow: 0 0 17px black;
     height: 150px;
     width: 100px;
