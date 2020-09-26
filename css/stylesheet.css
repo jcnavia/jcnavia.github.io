@@ -9,7 +9,7 @@ body {
 header,  footer{
     background-color: #643219;
     color: white;
-    padding: 30px;
+    padding: 8px;
     border-radius: 15px;
 }
 header h1{
