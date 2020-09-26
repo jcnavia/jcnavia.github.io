@@ -13,9 +13,8 @@ header,  footer{
     border-radius: 15px;
 }
 header h1{
-    font-size:50px;
-    padding-left: 15px;
-    text-align: left;
+    font-size:32px;
+    padding-left: 95px;
 }
 main{
     padding: 0 15px;
