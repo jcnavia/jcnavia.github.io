@@ -1,11 +1,12 @@
 body {
+    Display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: grey;
     font-family: '#', 3;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    
     max-width: 75%;
     padding: 10px;
     margin-left: auto;
