@@ -56,7 +56,11 @@ h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
+section1 {
+    display: grid;
+    grid-column-start: 1;
+  grid-column-end: 2;
+
     border: black 1px solid;
     border-radius: 15px;
     margin: 5px;
