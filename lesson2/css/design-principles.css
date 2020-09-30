@@ -13,7 +13,9 @@ main {
     margin-right: auto;
 }
 
-p {
+p1 {
+    Display: grid;
+    grid-template-columns: 1fr 1fr 1fr
     padding-left: 2em;
     padding-right: 2em;
 }
