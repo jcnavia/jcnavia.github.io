@@ -26,7 +26,7 @@
     margin-right: auto;
 }
 
-.header, footer {
+header, footer {
     Display: grid;
     grid-template-columns: 1/3;
     text-align: center;
