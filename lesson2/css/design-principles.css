@@ -1,12 +1,14 @@
-body {
+.grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+body {
+   
     background-color: grey;
     font-family: '#', 3;
 }
 
 main {
-    
     max-width: 75%;
     padding: 10px;
     margin-left: auto;
