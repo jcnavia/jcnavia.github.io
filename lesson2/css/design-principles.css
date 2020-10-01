@@ -61,7 +61,6 @@ h1, h2, h3 {
 }
 
 .section1 {
-    display: grid;
     grid-column-start: 1/2;
   grid-column-end: 2;
 
@@ -70,7 +69,12 @@ h1, h2, h3 {
     margin: 5px;
     background-color: #EEE;
 }
-
+.section2{
+    grid-column-start: 2/3;
+}
+.section3{
+    grid-column-start: 1/2;
+}
 section h3 {
     color: #ffffff;
     background-color: black;
