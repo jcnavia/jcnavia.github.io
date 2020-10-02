@@ -36,7 +36,8 @@ header, footer {
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    
+    font-family: 'Acme', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
