@@ -118,3 +118,9 @@ p{
 .link{
     text-align: center;
 }
+
+.banner {
+width: 100%;
+background-color: #E2A0FF;
+color: black;
+}
