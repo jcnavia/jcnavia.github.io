@@ -120,6 +120,7 @@ p{
 }
 
 banner {
+    text-align: center;
 width: 100%;
 background-color: #E2A0FF;
 color: black;
