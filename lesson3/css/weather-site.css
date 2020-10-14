@@ -22,6 +22,16 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem;
 }
+nav {
+	background-color: green;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 
