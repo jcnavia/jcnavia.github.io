@@ -64,3 +64,6 @@ nav ul {
 		grid-column: span 1;
 	}
 }
+.logo {
+	grid-template-columns: 1/2;
+}
