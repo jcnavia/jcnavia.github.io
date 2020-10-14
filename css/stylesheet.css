@@ -50,9 +50,10 @@ footer p.highlight {
 }
 .banner {
     text-align: center;
-width: 100%;
-background-color: #E2A0FF;
-color: black;
-padding: 10px;
-border: 12px solid black;
+    width: 100%;
+    background-color: #E2A0FF;
+    color: black;
+    padding: 10px;
+    border: 12px solid black;
+    box-sizing: border-box;
 }
