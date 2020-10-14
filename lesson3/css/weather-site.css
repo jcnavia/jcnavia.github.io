@@ -1,5 +1,11 @@
+.grid_container {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
 header,
 footer {
+	grid-template-columns: 1/4;
 	background-color:#E2A0FF;
 	display: flex;
 	flex-flow: column;
