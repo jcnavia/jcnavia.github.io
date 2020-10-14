@@ -21,7 +21,7 @@ footer {
     margin: 0 auto;
 }
 nav ul li a {
-	display: block;
+	display: table;
 	color: black;
 	text-align: center;
 	padding: 0.75rem;
@@ -29,6 +29,7 @@ nav ul li a {
 	font-size: 0.95rem;
 }
 nav {
+	
 	background-color: #C4F5FC;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
