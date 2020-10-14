@@ -48,3 +48,11 @@ footer p.highlight {
     font-size: .8em;
     margin-top:0;
 }
+banner {
+    text-align: center;
+width: 100%;
+background-color: #E2A0FF;
+color: black;
+padding: 10px;
+border: 12px solid black;
+}
