@@ -119,3 +119,26 @@ p{
     text-align: center;
 }
 
+
+@media only screen and (min-width: 37.5em) @media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+    }
+}

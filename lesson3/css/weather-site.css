@@ -39,6 +39,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+}
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 
@@ -51,7 +52,10 @@ nav ul {
 			nav ul { 
 				display: grid;
 				/*grid-template-columns: repeat(5, 1fr);*/
-				grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+				grid-template-columns: repeat(6, minmax(130px, 1fr));
+			}
+			nav ul li:first-child {
+				display:none;
 			}
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
@@ -64,7 +68,7 @@ nav ul {
 	article:nth-child(3) {
 		grid-column: span 1;
 	}
-}
-.logo {
-	grid-template-columns: 1/2;
+	.logo {
+		grid-template-columns: 1/2;
+	}
 }
