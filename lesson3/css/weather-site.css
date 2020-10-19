@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Oswald:wght@300;400&display=swap');
+
+.main-header
+{font-family: 'Chilanka', cursive;
+}
+.purpose {
+	font-family: 'Oswald', sans-serif;
+}
+
 .grid_container {
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -44,15 +53,13 @@ nav ul {
 @media only screen and (min-width: 37.5em) {
 
 	
-	/*	nav ul { display: flex; }
+	nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
-	*/
+	
 
-	/* Grid *********************/
 			nav ul { 
 				display: grid;
-				/*grid-template-columns: repeat(5, 1fr);*/
-				grid-template-columns: repeat(6, minmax(130px, 1fr));
+				grid-template-columns: repeat(9, minmax(130px, 1fr));
 			}
 			nav ul li:first-child {
 				display:none;
@@ -71,4 +78,5 @@ nav ul {
 	.logo {
 		grid-template-columns: 1/2;
 	}
+}
 }
